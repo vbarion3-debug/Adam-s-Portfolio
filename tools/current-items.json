@@ -1,0 +1,168 @@
+[
+  {
+    "id": "illustration-001",
+    "category": "illustration",
+    "name": "Illustration 001",
+    "thumb": "assets/work/illustration/thumb/illustration-001.webp",
+    "full": "assets/work/illustration/full/illustration-001.webp",
+    "width": 2400,
+    "height": 1800,
+    "sample": false,
+    "thumb_width": 280,
+    "thumb_height": 280
+  },
+  {
+    "id": "illustration-002",
+    "category": "illustration",
+    "name": "Illustration 002",
+    "thumb": "assets/work/illustration/thumb/illustration-002.webp",
+    "full": "assets/work/illustration/full/illustration-002.webp",
+    "width": 2400,
+    "height": 1800,
+    "sample": false,
+    "thumb_width": 280,
+    "thumb_height": 280
+  },
+  {
+    "id": "illustration-003",
+    "category": "illustration",
+    "name": "Illustration 003",
+    "thumb": "assets/work/illustration/thumb/illustration-003.webp",
+    "full": "assets/work/illustration/full/illustration-003.webp",
+    "width": 2400,
+    "height": 1800,
+    "sample": false,
+    "thumb_width": 280,
+    "thumb_height": 280
+  },
+  {
+    "id": "test-01",
+    "name": "Test sample 01 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-01.webp",
+    "full": "assets/work/illustration/full/test-01.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-02",
+    "name": "Test sample 02 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-02.webp",
+    "full": "assets/work/illustration/full/test-02.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-03",
+    "name": "Test sample 03 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-03.webp",
+    "full": "assets/work/illustration/full/test-03.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-04",
+    "name": "Test sample 04 — transparent dark lines",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-04.webp",
+    "full": "assets/work/illustration/full/test-04.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-05",
+    "name": "Test sample 05 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-05.webp",
+    "full": "assets/work/illustration/full/test-05.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-06",
+    "name": "Test sample 06 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-06.webp",
+    "full": "assets/work/illustration/full/test-06.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-07",
+    "name": "Test sample 07 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-07.webp",
+    "full": "assets/work/illustration/full/test-07.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-08",
+    "name": "Test sample 08 — transparent dark lines",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-08.webp",
+    "full": "assets/work/illustration/full/test-08.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-09",
+    "name": "Test sample 09 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-09.webp",
+    "full": "assets/work/illustration/full/test-09.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-10",
+    "name": "Test sample 10 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-10.webp",
+    "full": "assets/work/illustration/full/test-10.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-11",
+    "name": "Test sample 11 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-11.webp",
+    "full": "assets/work/illustration/full/test-11.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-12",
+    "name": "Test sample 12 — transparent dark lines",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-12.webp",
+    "full": "assets/work/illustration/full/test-12.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  },
+  {
+    "id": "test-13",
+    "name": "Test sample 13 — dark value chart",
+    "category": "illustration",
+    "thumb": "assets/work/illustration/thumb/test-13.webp",
+    "full": "assets/work/illustration/full/test-13.webp",
+    "width": 1200,
+    "height": 900,
+    "sample": true
+  }
+]

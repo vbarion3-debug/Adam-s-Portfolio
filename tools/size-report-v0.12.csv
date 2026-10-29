@@ -1,0 +1,7 @@
+source,kind,mode,before_bytes,after_bytes,target_bytes,result,visual_100_percent,alpha_min,alpha_nonopaque_pct
+project-01.png,thumb,lossy-alpha-q88,96508,29052,30000,PASS,NOT VERIFIED,0,31.84949
+project-01.png,full,lossy-alpha-q88,4040114,859582,900000,PASS,NOT VERIFIED,0,37.934444
+project-02.png,thumb,lossy-alpha-q88,87856,26260,30000,PASS,NOT VERIFIED,0,39.048469
+project-02.png,full,lossy-alpha-q88,4481388,922896,900000,OVER,NOT VERIFIED,0,40.570417
+project-03.png,thumb,lossy-alpha-q88,70246,18594,30000,PASS,NOT VERIFIED,0,26.195153
+project-03.png,full,lossy-alpha-q88,2510094,341476,900000,PASS,NOT VERIFIED,0,38.86206

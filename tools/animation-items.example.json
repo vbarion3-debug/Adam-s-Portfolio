@@ -1,0 +1,56 @@
+[
+  {
+    "id": "test-animation-01",
+    "name": "Test sample 01 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-01.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_01",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-01.png"
+  },
+  {
+    "id": "test-animation-02",
+    "name": "Test sample 02 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-02.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_02",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-02.png"
+  },
+  {
+    "id": "test-animation-03",
+    "name": "Test sample 03 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-03.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_03",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-03.png"
+  },
+  {
+    "id": "test-animation-04",
+    "name": "Test sample 04 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-04.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_04",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-04.png"
+  },
+  {
+    "id": "test-animation-05",
+    "name": "Test sample 05 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-05.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_05",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-05.png"
+  },
+  {
+    "id": "test-animation-06",
+    "name": "Test sample 06 — animation poster",
+    "thumb": "assets/work/animation/thumb/test-animation-06.webp",
+    "youtube_id": "MOCK_NOT_A_VIDEO_06",
+    "kind": "youtube",
+    "sample": true,
+    "source": "test-animation-06.png"
+  }
+]

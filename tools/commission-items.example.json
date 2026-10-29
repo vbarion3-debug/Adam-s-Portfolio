@@ -1,0 +1,50 @@
+[
+  {
+    "id": "test-commission-01",
+    "name": "Test sample 01 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-01.webp",
+    "full": "assets/work/commission/full/test-commission-01.webp",
+    "tier": "Portrait",
+    "sample": true
+  },
+  {
+    "id": "test-commission-02",
+    "name": "Test sample 02 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-02.webp",
+    "full": "assets/work/commission/full/test-commission-02.webp",
+    "tier": "Portrait",
+    "sample": true
+  },
+  {
+    "id": "test-commission-03",
+    "name": "Test sample 03 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-03.webp",
+    "full": "assets/work/commission/full/test-commission-03.webp",
+    "tier": "Halfbody",
+    "sample": true
+  },
+  {
+    "id": "test-commission-04",
+    "name": "Test sample 04 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-04.webp",
+    "full": "assets/work/commission/full/test-commission-04.webp",
+    "tier": "Halfbody",
+    "sample": true
+  },
+  {
+    "id": "test-commission-05",
+    "name": "Test sample 05 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-05.webp",
+    "full": "assets/work/commission/full/test-commission-05.webp",
+    "tier": "Fullbody",
+    "sample": true
+  },
+  {
+    "id": "test-commission-06",
+    "name": "Test sample 06 — commission chart",
+    "thumb": "assets/work/commission/thumb/test-commission-06.webp",
+    "full": "assets/work/commission/full/test-commission-06.webp",
+    "tier": "Fullbody",
+    "sample": true
+  }
+]

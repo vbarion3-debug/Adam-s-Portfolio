@@ -1,0 +1,27 @@
+/* Commission only. All colors use the existing dark-frame tokens. */
+.commission-page h2 { margin-bottom: 1rem; }
+.commission-prices { border-top: 1px dotted var(--divider-content); padding-top: 1.5rem; }
+.commission-price-list > li { padding: 1rem 0; border-bottom: 1px dotted var(--divider-content); }
+.commission-price-list h3 { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; margin-bottom: .5rem; }
+.commission-price { color: var(--link-content); font-family: var(--font-label); }
+.commission-extras li + li { margin-top: .25rem; }
+.commission-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 2rem; margin-top: 2rem; }
+.commission-page section { min-width: 0; }
+.commission-page p, .commission-page li { overflow-wrap: break-word; }
+.commission-can h2, .commission-reference { color: var(--date-content); }
+.commission-cannot { margin-top: 1.75rem; }
+.commission-cannot h2 { color: var(--link-content); }
+.commission-scope-list li { position: relative; padding-left: 1.4rem; }
+.commission-scope-list li + li { margin-top: .65rem; }
+.commission-symbol { position: absolute; left: 0; }
+.commission-reference { display: block; margin-top: .3rem; font-size: .875rem; }
+.commission-terms p + p { margin-top: 1rem; }
+.commission-term-label { font-family: var(--font-label); text-transform: uppercase; }
+.commission-slot { margin: 2rem 0; padding: 1rem 0; border-top: 1px dotted var(--divider-content); border-bottom: 1px dotted var(--divider-content); }
+.commission-payment li + li { margin-top: .4rem; }
+@media (max-width: 800px) {
+  .commission-columns { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
+}
+
+
+.commission-examples { margin-top: 2rem; }

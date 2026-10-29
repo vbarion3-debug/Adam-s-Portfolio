@@ -1,0 +1,13 @@
+id,kind,mode,before_bytes,after_bytes,target_bytes,result,alpha_min,alpha_nonopaque_pct
+test-commission-01,thumb,lossy-q88,3672,3672,30000,PASS,255,0.0
+test-commission-01,full,lossy-q88,5644,5644,900000,PASS,255,0.0
+test-commission-02,thumb,lossy-q88,3678,3678,30000,PASS,255,0.0
+test-commission-02,full,lossy-q88,5686,5686,900000,PASS,255,0.0
+test-commission-03,thumb,lossy-q88,3670,3670,30000,PASS,255,0.0
+test-commission-03,full,lossy-q88,5710,5710,900000,PASS,255,0.0
+test-commission-04,thumb,lossy-q88,3666,3666,30000,PASS,255,0.0
+test-commission-04,full,lossy-q88,5692,5692,900000,PASS,255,0.0
+test-commission-05,thumb,lossy-q88,3680,3680,30000,PASS,255,0.0
+test-commission-05,full,lossy-q88,5694,5694,900000,PASS,255,0.0
+test-commission-06,thumb,lossy-q88,3674,3674,30000,PASS,255,0.0
+test-commission-06,full,lossy-q88,5706,5706,900000,PASS,255,0.0

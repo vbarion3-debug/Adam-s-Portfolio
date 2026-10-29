@@ -1,0 +1,15 @@
+/* Only the YouTube lightbox container; existing gallery/shell CSS is unchanged. */
+.youtube-frame {
+  position: relative;
+  width: min(100%, calc((100dvh - 13rem) * 16 / 9));
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+.youtube-frame > iframe {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

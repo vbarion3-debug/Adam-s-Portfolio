@@ -1,0 +1,7 @@
+source,kind,mode,before_bytes,after_bytes,target_bytes,result,visual_100_percent
+project-01.png,thumb,lossless-alpha,128752,96508,30000,OVER,NOT VERIFIED
+project-01.png,full,lossless-alpha,4069760,4040114,900000,OVER,NOT VERIFIED
+project-02.png,thumb,lossless-alpha,115456,87856,30000,OVER,NOT VERIFIED
+project-02.png,full,lossless-alpha,4524910,4481388,900000,OVER,NOT VERIFIED
+project-03.png,thumb,lossless-alpha,92300,70246,30000,OVER,NOT VERIFIED
+project-03.png,full,lossless-alpha,2576484,2510094,900000,OVER,NOT VERIFIED

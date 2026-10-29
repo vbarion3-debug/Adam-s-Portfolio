@@ -1,0 +1,27 @@
+/* Surface boundaries: dark shell, theme-aware content. */
+html { color-scheme: dark; scroll-behavior: var(--scroll-behavior); }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-page); color: var(--text-on-dark); font-family: var(--font-body); font-size: var(--font-size-body); line-height: var(--line-height-body); }
+/* CSS-only fine print texture; never overlays the readable content or artwork. */
+body::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: -1; background: repeating-linear-gradient(113deg, transparent 0 7px, rgb(183 170 134 / .025) 7px 8px), radial-gradient(ellipse at 35% 5%, #30281d 0, transparent 65%); }
+a { color: var(--link-on-dark); text-underline-offset: .23em; overflow-wrap: anywhere; }
+a:hover { color: var(--link-hover-on-dark); }
+:focus-visible { outline: var(--focus-width) solid var(--focus-on-dark); outline-offset: var(--focus-offset); }
+h1,h2,p { margin: 0; }
+h1,h2 { font-family: var(--font-display); font-weight: 400; line-height: var(--line-height-heading); }
+h1 { font-size: var(--font-size-h2); } h2 { font-size: var(--font-size-h3); }
+ul { padding: 0; margin: 0; list-style: none; }
+a, summary { transition: color var(--duration-fast), background-color var(--duration-fast), border-color var(--duration-fast); }
+.content-frame { color: var(--text-content); background: var(--surface-content); color-scheme: dark; }
+.content-frame a { color: var(--link-content); }
+.content-frame a:visited { color: var(--link-content-visited); }
+.content-frame a:hover { color: var(--link-content-hover); }
+.content-frame :focus-visible, .content-frame:focus-visible { outline-color: var(--focus-content); }
+.skip-link { position: fixed; left: 1rem; top: 1rem; padding: .7rem 1rem; background: var(--bg-dark-2); z-index: var(--z-skip-link); transform: translateY(-200%); }
+.skip-link:focus { transform: none; }
+.eyebrow, .panel-label, .metadata, .project-index, .prototype-note, .frame-tab, .project-caption, .contact-strip, .site-footer, .masthead-index, .role, .side-note, .nav-list, .social-nav { font-family: var(--font-label); }
+.metadata, .panel-label, .prototype-note, .project-caption, .frame-tab, .masthead-index, .role, .site-footer, .side-note { font-size: var(--font-size-micro); }
+.metadata { color: var(--text-content-muted); }
+
+/* Selected text must remain legible on both content themes. */
+::selection { background: var(--selection-bg); color: var(--selection-text); }

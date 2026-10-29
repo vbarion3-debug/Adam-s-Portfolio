@@ -1,0 +1,7 @@
+id,mode,before_bytes,after_bytes,target_bytes,result,alpha_min,alpha_nonopaque_pct
+test-animation-01,lossy-q88,6402,6402,30000,PASS,255,0.0
+test-animation-02,lossy-q88,6420,6420,30000,PASS,255,0.0
+test-animation-03,lossy-alpha-q88,6988,11106,30000,PASS,0,98.625
+test-animation-04,lossy-q88,6402,6402,30000,PASS,255,0.0
+test-animation-05,lossy-q88,6414,6414,30000,PASS,255,0.0
+test-animation-06,lossy-alpha-q88,6964,11096,30000,PASS,0,98.625

@@ -1,0 +1,14 @@
+/* v0.13.1: three independent artwork slots per price; no overlap behavior yet. */
+.commission-price-row { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.65fr); gap: 1.25rem; align-items: start; }
+.commission-price-copy { min-width: 0; }
+.commission-art-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; min-width: 0; }
+.commission-art-slot { min-width: 0; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; padding: .3rem; border: 1px solid var(--border-content); background: var(--surface-content-raised); }
+.commission-art-placeholder { font: .875rem/1.4 var(--font-label); text-align: center; color: var(--text-content); overflow-wrap: anywhere; }
+.commission-art-placeholder small { display: block; margin-top: .4rem; font: inherit; }
+.commission-art-slot img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; background: var(--paper-light); }
+@media (max-width: 1000px) {
+  .commission-price-row { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 380px) {
+  .commission-art-grid { grid-template-columns: minmax(0, 1fr); }
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14120F">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <!-- TODO before launch: add approved Open Graph metadata and social preview. -->
+  <meta name="description" content="Adam Challis — Animation gallery prototype.">
+  <title>Animation — Adam Challis · Prototype</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/youtube.css">
+</head>
+<body id="top">
+<a class="skip-link" href="#work">Skip to animation gallery</a>
+<div class="site-shell">
+  <header class="masthead">
+    <!-- Temporary composition fragment; replace the shared asset after Q2 is decided. -->
+    <div class="collage-slot" aria-hidden="true">
+      <img src="assets/img/masthead-collage.svg" alt="" width="250" height="240">
+    </div>
+    <div class="nameplate">
+      <span class="masthead-index">AC / PORTFOLIO</span>
+      <a class="brand" href="index.html">Adam Challis</a>
+      <p class="role">Illustrator <span aria-hidden="true">/</span> Animator <span aria-hidden="true">/</span> Concept Artist</p>
+      <span class="plate-mark" aria-hidden="true">✳</span>
+    </div>
+  </header>
+
+  <div class="sidebar">
+    <nav aria-label="Main navigation">
+      <p class="panel-label">Index / 01</p>
+      <ul class="nav-list">
+        <li><a href="index.html" aria-current="true"><span class="nav-arrow" aria-hidden="true">↳</span> Work <span class="nav-number">01</span></a></li>
+        <li><a href="commission.html"><span class="nav-arrow" aria-hidden="true">↳</span> Commission <span class="nav-number">02</span></a></li>
+        <li><a href="about.html"><span class="nav-arrow" aria-hidden="true">↳</span> About <span class="nav-number">03</span></a></li>
+        <li><a href="contact.html"><span class="nav-arrow" aria-hidden="true">↳</span> Contact <span class="nav-number">04</span></a></li>
+      </ul>
+      <div class="social-nav">
+        <p class="panel-label">Elsewhere / links</p>
+        <ul><li><a href="https://www.instagram.com/4rvon">Instagram <span aria-hidden="true">↗</span></a></li><li><a href="https://x.com/4rvon">X <span aria-hidden="true">↗</span></a></li></ul>
+      </div>
+    </nav>
+    <div class="side-note" aria-hidden="true"><span>PAGE / 01</span><div class="side-lines"></div></div>
+  </div>
+
+  <main class="content-frame work-frame" id="work" tabindex="-1">
+    <nav class="work-tabs" aria-label="Work sections"><a href="index.html">Illustration</a><a href="animation.html" aria-current="page">Animation</a></nav>
+    <header class="work-heading"><h1>Animation</h1></header>
+    <p class="gallery-note">Adam put yo animation here.</p>
+    <!-- GALLERY START -->
+    <ul class="gallery" aria-label="Animation gallery">
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_01" data-gallery data-id="test-animation-01" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_01" data-name="Test sample 01 — animation poster"><img src="assets/work/animation/thumb/test-animation-01.webp" alt="Test sample 01 — animation poster" width="280" height="280" decoding="async"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_02" data-gallery data-id="test-animation-02" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_02" data-name="Test sample 02 — animation poster"><img src="assets/work/animation/thumb/test-animation-02.webp" alt="Test sample 02 — animation poster" width="280" height="280" decoding="async"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_03" data-gallery data-id="test-animation-03" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_03" data-name="Test sample 03 — animation poster"><img src="assets/work/animation/thumb/test-animation-03.webp" alt="Test sample 03 — animation poster" width="280" height="280" decoding="async"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_04" data-gallery data-id="test-animation-04" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_04" data-name="Test sample 04 — animation poster"><img src="assets/work/animation/thumb/test-animation-04.webp" alt="Test sample 04 — animation poster" width="280" height="280" decoding="async"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_05" data-gallery data-id="test-animation-05" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_05" data-name="Test sample 05 — animation poster"><img src="assets/work/animation/thumb/test-animation-05.webp" alt="Test sample 05 — animation poster" width="280" height="280" decoding="async"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MOCK_NOT_A_VIDEO_06" data-gallery data-id="test-animation-06" data-kind="youtube" data-youtube-id="MOCK_NOT_A_VIDEO_06" data-name="Test sample 06 — animation poster"><img src="assets/work/animation/thumb/test-animation-06.webp" alt="Test sample 06 — animation poster" width="280" height="280" decoding="async"></a></li>
+    </ul>
+    <!-- GALLERY END -->
+  </main>
+
+  <footer class="site-footer"><span>Adam Challis / Work</span><a href="#top">Back to top ↑</a></footer>
+</div>
+
+
+<dialog class="lightbox" aria-labelledby="lightbox-title">
+  <div class="lightbox-toolbar"><div><button type="button" data-prev>← Previous</button> <button type="button" data-next>Next →</button></div><button type="button" data-close autofocus>Close ×</button></div>
+  <h2 id="lightbox-title"></h2>
+  <div class="lightbox-media"></div>
+  <p class="lightbox-status" role="status" aria-live="polite"></p>
+</dialog>
+<script src="js/main.js" defer></script>
+</body>
+</html>
